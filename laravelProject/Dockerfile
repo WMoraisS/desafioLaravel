@@ -1,2 +1,2 @@
 FROM wyveo/nginx-php-fpm:latest
-RUN ln -s public html
+RUN ln -s /usr/share/nginx/public /usr/share/nginx/html
